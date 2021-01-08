@@ -1,0 +1,44 @@
+{"editors": {
+    "customClasses": {},
+    "variables": {},
+    "tabName": "testIUM.vm",
+    "pages": [{
+        "pageLifeCycle": {
+            "selectedlifecycle": "",
+            "lifeCycle": []
+        },
+        "checksum_old": "",
+        "defaultPage": true,
+        "validName": true,
+        "name": "View1",
+        "id": "xxx_3982014",
+        "validUrl": true,
+        "routingUrl": "view1",
+        "content": {
+            "css": ".wrapper_asg_bkgrd",
+            "wrapperclasses": [{
+                "private": false,
+                "protected": false,
+                "name": "wrapper_asg_bkgrd",
+                "active": true,
+                "label": "wrapper_asg_bkgrd",
+                "type": 1
+            }],
+            "wrapperstyles": {},
+            "html": "<div ui-modeller-type=\"header\" id=\"header-pqikobz9cgj\" label=\"View-1\" class=\"header\"><span id=\"span-jmthf50ef97\">View-1<\/span><\/div><div ui-modeller-type=\"um-container\" id=\"um-container-674tetqvevw\" class=\"um-control\"><button ui-modeller-type=\"button\" label=\"Click Me\" color=\"primary\" mat-flat-button=\"\" badgecolor=\"#ff4081\" badgesize=\"small\" badgeposition=\"above after\" badgetextcolor=\"#ffffff\" badgeoverlap=\"yes\" iconpos=\"left\" id=\"button-7euvjs6o0ns\" validations-id-mapping=\"{&quot;Id&quot;:&quot;8a6550b7-7260-4793-9a88-9f016e2ab56f&quot;}\" smopened=\"none\" webservices=\"{&quot;click&quot;:{&quot;disableEditor&quot;:false,&quot;isSaved&quot;:true,&quot;name&quot;:&quot;click&quot;,&quot;content&quot;:&quot;{\\&quot;collaboration\\&quot;:{},\\&quot;process\\&quot;:{\\&quot;id\\&quot;:\\&quot;Process_1\\&quot;,\\&quot;startEvent\\&quot;:{\\&quot;id\\&quot;:\\&quot;StartEvent_mhnwc\\&quot;,\\&quot;name\\&quot;:\\&quot;start\\&quot;,\\&quot;businessProp\\&quot;:{\\&quot;blockId\\&quot;:\\&quot;StartEvent_mhnwc\\&quot;},\\&quot;type\\&quot;:\\&quot;bpmn:startEvent\\&quot;,\\&quot;outgoing\\&quot;:\\&quot;SequenceFlow_n7umc\\&quot;},\\&quot;processTask\\&quot;:{\\&quot;id\\&quot;:\\&quot;ProcessTask_tcmu4\\&quot;,\\&quot;name\\&quot;:\\&quot;testPMi\\&quot;,\\&quot;businessProp\\&quot;:{\\&quot;blockId\\&quot;:\\&quot;ProcessTask_tcmu4\\&quot;,\\&quot;processName\\&quot;:\\&quot;{\\\\\\&quot;name\\\\\\&quot;:\\\\\\&quot;samplePM.pm\\\\\\&quot;,\\\\\\&quot;type\\\\\\&quot;:2,\\\\\\&quot;parentName\\\\\\&quot;:\\\\\\&quot;Process Models\\\\\\&quot;,\\\\\\&quot;location\\\\\\&quot;:\\\\\\&quot;/SampleCollabTes/Process Models\\\\\\&quot;,\\\\\\&quot;properties\\\\\\&quot;:{\\\\\\&quot;isWorkspaceReady\\\\\\&quot;:true,\\\\\\&quot;uiModels\\\\\\&quot;:[]},\\\\\\&quot;meta\\\\\\&quot;:\\\\\\&quot;{}\\\\\\&quot;,\\\\\\&quot;size\\\\\\&quot;:0,\\\\\\&quot;errorMessage\\\\\\&quot;:null,\\\\\\&quot;parentId\\\\\\&quot;:\\\\\\&quot;4790fa90-2d8d-4c7d-bed7-af7a6eb76a13\\\\\\&quot;,\\\\\\&quot;projectId\\\\\\&quot;:\\\\\\&quot;592b21d3-b6ee-4dce-80f6-b395b87bd639\\\\\\&quot;,\\\\\\&quot;referenceId\\\\\\&quot;:\\\\\\&quot;e147044e-4b30-4066-bcbb-495fefa30b75\\\\\\&quot;,\\\\\\&quot;namespaceId\\\\\\&quot;:\\\\\\&quot;\\\\\\&quot;,\\\\\\&quot;content\\\\\\&quot;:null,\\\\\\&quot;id\\\\\\&quot;:\\\\\\&quot;495b49a9-ee5b-4e60-aeaf-b24959f7b22e\\\\\\&quot;,\\\\\\&quot;createdOn\\\\\\&quot;:\\\\\\&quot;2021-01-07T10:48:40.488+01:00\\\\\\&quot;,\\\\\\&quot;modifiedOn\\\\\\&quot;:\\\\\\&quot;2021-01-07T10:50:09.446+01:00\\\\\\&quot;,\\\\\\&quot;modifiedBy\\\\\\&quot;:null,\\\\\\&quot;createdBy\\\\\\&quot;:null,\\\\\\&quot;rolePack\\\\\\&quot;:null,\\\\\\&quot;contentAsBytes\\\\\\&quot;:null,\\\\\\&quot;contentAsString\\\\\\&quot;:\\\\\\&quot;\\\\\\&quot;,\\\\\\&quot;buildProgress\\\\\\&quot;:false}\\&quot;,\\&quot;parameters\\&quot;:[{\\&quot;key\\&quot;:\\&quot;nameRe\\&quot;,\\&quot;value\\&quot;:\\&quot;nameRe\\&quot;}]},\\&quot;events\\&quot;:[],\\&quot;type\\&quot;:\\&quot;bpmn:processTask\\&quot;,\\&quot;outgoing\\&quot;:\\&quot;SequenceFlow_jpjbdh\\&quot;,\\&quot;incoming\\&quot;:\\&quot;SequenceFlow_n7umc\\&quot;},\\&quot;endEvent\\&quot;:{\\&quot;id\\&quot;:\\&quot;EndEvent_v6hbzd\\&quot;,\\&quot;name\\&quot;:\\&quot;stop\\&quot;,\\&quot;businessProp\\&quot;:{\\&quot;blockId\\&quot;:\\&quot;EndEvent_v6hbzd\\&quot;},\\&quot;type\\&quot;:\\&quot;bpmn:endEvent\\&quot;,\\&quot;incoming\\&quot;:\\&quot;SequenceFlow_jpjbdh\\&quot;},\\&quot;sequenceFlow\\&quot;:[{\\&quot;id\\&quot;:\\&quot;SequenceFlow_n7umc\\&quot;,\\&quot;sourceRef\\&quot;:\\&quot;StartEvent_mhnwc\\&quot;,\\&quot;targetRef\\&quot;:\\&quot;ProcessTask_tcmu4\\&quot;,\\&quot;businessProp\\&quot;:{},\\&quot;type\\&quot;:\\&quot;bpmn:sequenceFlow\\&quot;,\\&quot;name\\&quot;:\\&quot;\\&quot;},{\\&quot;id\\&quot;:\\&quot;SequenceFlow_jpjbdh\\&quot;,\\&quot;sourceRef\\&quot;:\\&quot;ProcessTask_tcmu4\\&quot;,\\&quot;targetRef\\&quot;:\\&quot;EndEvent_v6hbzd\\&quot;,\\&quot;businessProp\\&quot;:{},\\&quot;type\\&quot;:\\&quot;bpmn:sequenceFlow\\&quot;,\\&quot;name\\&quot;:\\&quot;\\&quot;}]},\\&quot;BPMNDiagram\\&quot;:{\\&quot;BPMNPlane\\&quot;:{\\&quot;BPMNEdge\\&quot;:[{\\&quot;id\\&quot;:\\&quot;SequenceFlow_n7umc_ve\\&quot;,\\&quot;waypoint\\&quot;:[{\\&quot;x\\&quot;:\\&quot;168.00000196695328\\&quot;,\\&quot;y\\&quot;:\\&quot;111.00000138580799\\&quot;},{\\&quot;x\\&quot;:\\&quot;205.50000098347664\\&quot;,\\&quot;y\\&quot;:\\&quot;111.00000138580799\\&quot;},{\\&quot;x\\&quot;:\\&quot;205.50000098347664\\&quot;,\\&quot;y\\&quot;:\\&quot;185.0000023651123\\&quot;},{\\&quot;x\\&quot;:\\&quot;243\\&quot;,\\&quot;y\\&quot;:\\&quot;185.0000023651123\\&quot;}],\\&quot;bpmnElement\\&quot;:\\&quot;SequenceFlow_n7umc\\&quot;},{\\&quot;id\\&quot;:\\&quot;SequenceFlow_jpjbdh_ve\\&quot;,\\&quot;waypoint\\&quot;:[{\\&quot;x\\&quot;:\\&quot;413.00000362098217\\&quot;,\\&quot;y\\&quot;:\\&quot;185.00000671654945\\&quot;},{\\&quot;x\\&quot;:\\&quot;455.5000055208802\\&quot;,\\&quot;y\\&quot;:\\&quot;185.00000671654945\\&quot;},{\\&quot;x\\&quot;:\\&quot;455.5000055208802\\&quot;,\\&quot;y\\&quot;:\\&quot;267.00000371038914\\&quot;},{\\&quot;x\\&quot;:\\&quot;498.0000074207783\\&quot;,\\&quot;y\\&quot;:\\&quot;267.00000371038914\\&quot;}],\\&quot;bpmnElement\\&quot;:\\&quot;SequenceFlow_jpjbdh\\&quot;}],\\&quot;BPMNShape\\&quot;:[{\\&quot;id\\&quot;:\\&quot;StartEvent_mhnwc_ve\\&quot;,\\&quot;Bounds\\&quot;:{\\&quot;x\\&quot;:132.00000196695328,\\&quot;y\\&quot;:93.00000138580799,\\&quot;cx\\&quot;:150.00000196695328,\\&quot;cy\\&quot;:122.20312638580799,\\&quot;width\\&quot;:36,\\&quot;height\\&quot;:58.40625},\\&quot;bpmnElement\\&quot;:\\&quot;StartEvent_mhnwc\\&quot;},{\\&quot;id\\&quot;:\\&quot;ProcessTask_tcmu4_ve\\&quot;,\\&quot;Bounds\\&quot;:{\\&quot;x\\&quot;:243.00000362098217,\\&quot;y\\&quot;:164.02000671654946,\\&quot;cx\\&quot;:328.00000362098217,\\&quot;cy\\&quot;:185.0000062587858,\\&quot;width\\&quot;:170,\\&quot;height\\&quot;:41.959999084472656},\\&quot;bpmnElement\\&quot;:\\&quot;ProcessTask_tcmu4\\&quot;},{\\&quot;id\\&quot;:\\&quot;EndEvent_v6hbzd_ve\\&quot;,\\&quot;Bounds\\&quot;:{\\&quot;x\\&quot;:498.0000074207783,\\&quot;y\\&quot;:249.00000371038914,\\&quot;cx\\&quot;:516.0000074207783,\\&quot;cy\\&quot;:278.20312871038914,\\&quot;width\\&quot;:36,\\&quot;height\\&quot;:58.40625},\\&quot;bpmnElement\\&quot;:\\&quot;EndEvent_v6hbzd\\&quot;}]},\\&quot;id\\&quot;:\\&quot;Process_1_ve\\&quot;,\\&quot;bpmnElement\\&quot;:\\&quot;Process_1\\&quot;}}&quot;,&quot;id&quot;:&quot;process_editor_click 1610013359787&quot;,&quot;description&quot;:&quot;&quot;,&quot;eventType&quot;:0,&quot;scriptId&quot;:&quot;scriptID_7knl7&quot;}}\" SMVariables=\"{}\" class=\"um-button-icon um-mat-button um-primary-button mat-flat-button mat-primary\"><span data-label-wrapper=\"\" data-invisible=\"\" id=\"span-pp97wpsqud\" class=\"mat-button-wrapper\">Click Me<\/span><span data-menu-wrapper=\"\" id=\"span-99ftkeyo7zf\" class=\"button-menu-span\"><\/span><div data-invisible=\"\" matripple=\"\" id=\"div-ojlmlx1fwj\" class=\"mat-button-ripple mat-ripple\"><\/div><div data-invisible=\"\" id=\"div-clw328htfzw\" class=\"mat-button-focus-overlay\"><\/div><\/button><\/div>"
+        },
+        "checksum_new": 2704900141
+    }],
+    "assets": [],
+    "isValid": true,
+    "index": 0,
+    "id": "mdt_visual_editor_root",
+    "validations": {},
+    "url": "/rest",
+    "customVariables": {
+        "checksum_old": "",
+        "list": [],
+        "checksum_new": 0
+    },
+    "globalCss": "*{ box-sizing: border-box; } body{margin: 0;}"
+}}
